@@ -1,0 +1,25 @@
+body {
+	display: flex;
+    flex-flow: column nowrap;
+	align-items: center;
+    gap: 40px;
+    
+}
+
+button {
+    font-size: 40px;
+    background-color:aliceblue;
+    color: black;
+    border-radius: 8px;
+
+}
+#canvas {
+    width: 900px;
+    height: 900px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.pixels {
+	background-color: white;
+}
